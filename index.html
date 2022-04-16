@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>converter.com</title>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="p-heading">
+            <h1>TEMPERATURE CONVERTER</h1>
+            <!-- <h2>Now it's easy to convert Temperature</h2> -->
+        </div>
+        <div id="form">
+            <form action="">
+                <div>
+                    <label for="temp-value" style="font-size: 20px">Enter The value : </label>
+                    <input style="width: 300px; padding: 8px;  border-radius: 9px;" type="number" name="temp-value" id="temp-value">
+                </div>
+                <div>
+                    <label for="temp" style="font-size: 20px ">Choose a Scale : </label>
+                    <select style="width: 320px; padding: 8px; border-radius: 9px;" name="scale " id="scale">
+                     <option value="cel">Celsius</option>
+                      <option value="fah">Fahrenheit</option>    
+                    </select>
+                </div>
+                <input type="button" value="Submit" class="btn">
+            </form>
+        </div>
+        <div id="result">
+            Result Display Here
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
